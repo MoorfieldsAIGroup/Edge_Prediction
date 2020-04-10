@@ -25,7 +25,7 @@ To predict a multiple images in a folder and output a csv:
 > python3 label_image.py -h
 usage: label_image.py [-h] [-i IMAGE] [-m MODEL_FILE] [-l LABEL_FILE]
                       [--input_mean INPUT_MEAN] [--input_std INPUT_STD]
-                      [--folder FOLDER] [--option OPTION]
+                      [-f FOLDER] [-o OPTION]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -39,8 +39,10 @@ optional arguments:
                         input_mean
   --input_std INPUT_STD
                         input standard deviation
-  --folder FOLDER       image folder
-  --option OPTION       single or batch
+  -f FOLDER, --folder FOLDER
+                        image folder name
+  -o OPTION, --option OPTION
+                        single or batch prediction
 ```
 
 ## Reference
