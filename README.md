@@ -21,7 +21,7 @@ To predict a multiple images in a folder and output a csv:
 > --folder data
 ```
 
-```bash
+```shell
 > python3 label_image.py -h
 usage: label_image.py [-h] [-i IMAGE] [-m MODEL_FILE] [-l LABEL_FILE]
                       [--input_mean INPUT_MEAN] [--input_std INPUT_STD]
