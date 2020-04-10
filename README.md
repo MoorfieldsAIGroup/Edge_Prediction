@@ -15,10 +15,10 @@ To predict a single image and output the result:
 To predict a multiple images in a folder and output a csv:
 ```bash
 > python3 label_image.py \
-> --m model.tflite \
-> --l dict.txt \
-> --o batch \
-> --f data
+> -m model.tflite \
+> -l dict.txt \
+> -o batch \
+> -f data
 ```
 
 ```shell
