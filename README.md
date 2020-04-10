@@ -5,23 +5,23 @@
 You can easily test the output masks on your images via the CLI.
 
 To predict a single image and output the result:
-```console
+```bash
 > python3 label_image.py \
---model_file model.tflite \
---label_file dict.txt \
---image test_image.jpeg
+> --model_file model.tflite \
+> --label_file dict.txt \
+> --image test_image.jpeg
 ```
 
 To predict a multiple images in a folder and output a csv:
-```console
+```bash
 > python3 label_image.py \
---model_file model.tflite \
---label_file dict.txt \
---option batch \
---folder data
+> --model_file model.tflite \
+> --label_file dict.txt \
+> --option batch \
+> --folder data
 ```
 
-```console
+```bash
 > python3 label_image.py -h
 usage: label_image.py [-h] [-i IMAGE] [-m MODEL_FILE] [-l LABEL_FILE]
                       [--input_mean INPUT_MEAN] [--input_std INPUT_STD]
