@@ -60,13 +60,15 @@ if __name__ == '__main__':
         default=127.5, type=float,
         help='input standard deviation')
     parser.add_argument(
+        '-f',
         '--folder',
         default='data',
-        help='image folder')
+        help='image folder name')
     parser.add_argument(
+        '-o',
         '--option',
         default='single',
-        help='single or batch')
+        help='single or batch prediction')
     args = parser.parse_args()
 
 
