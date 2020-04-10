@@ -1,4 +1,4 @@
-# edge_prediction
+# Edge_Prediction
 
 ## Usage
 ### Image Prediction
