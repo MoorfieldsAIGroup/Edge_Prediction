@@ -50,4 +50,5 @@ optional arguments:
 ```
 
 ## Reference
-1. https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/python/
+1. https://firebase.google.com/
+2. https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/python/
