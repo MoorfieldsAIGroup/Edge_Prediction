@@ -2,15 +2,10 @@
 
 ## Usage
 ### Image Prediction
-Colab test [Page]
-[https://colab.research.google.com/gist/zgy600/e9d433f3fd27d2babda2f01b143e089f/edge_prediction_run_github.ipynb?authuser=1]
+[Colab][Colab_link] test Page.
+[Colab_link]: https://colab.research.google.com/gist/zgy600/e9d433f3fd27d2babda2f01b143e089f/edge_prediction_run_github.ipynb?authuser=1
+
 You can easily test the output masks on your images via the CLI.
-
-This [website][an_awesome_website_link] is awesome.
-
-You will never use anything else than this [website][an_awesome_website_link].
-
-[an_awesome_website_link]: https://stackoverflow.com
 
 To predict a single image and output the result:
 ```bash
