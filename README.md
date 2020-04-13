@@ -1,6 +1,4 @@
 # Edge_Prediction
-## Update
-Added Google Drive Mount on Colab
 ## Usage
 ### Image Prediction
 [Colab][Colab_link] test Page.
