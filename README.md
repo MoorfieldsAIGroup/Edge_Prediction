@@ -3,7 +3,8 @@
 ### Image Prediction
 [Colab][Colab_link] test Page.
 
-[Colab_link]: https://colab.research.google.com/gist/zgy600/469a59aad632debca6d996a6fab4b6ef/copy-of-edge_prediction_run_github.ipynb?authuser=1
+[Colab_link]: https://colab.research.google.com/gist/zgy600/07e2118de470af7ebff51b76207a57ce/copy-of-edge_prediction_run_github.ipynb?authuser=1
+
 
 You can easily test the code on your images via the CLI.
 
